@@ -7,12 +7,17 @@
 body {
   font-size: 18px;
   margin-top: 50px;
+  background-color: #FFFFF0;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #FFFFF0;
 }
 
 p {
